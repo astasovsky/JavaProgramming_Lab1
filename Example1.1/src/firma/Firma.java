@@ -9,7 +9,7 @@ class Sotrudnik {
 
 public class Firma { // главный класс
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in, "cp1251");
+        Scanner sc = new Scanner(System.in);
         System.out.println("Введите количество сотрудников => ");
         int kol = sc.nextInt();
         sc.nextLine(); // очистка буфера после ввода числа
